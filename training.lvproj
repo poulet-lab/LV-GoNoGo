@@ -105,6 +105,8 @@
 				<Item Name="Conditional Auto-Indexing Tunnel (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (Variant)__ogtk.vi"/>
 				<Item Name="Conditional Auto-Indexing Tunnel (VI-REF)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (VI-REF)__ogtk.vi"/>
 				<Item Name="Conditional Auto-Indexing Tunnel__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel__ogtk.vi"/>
+				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
+				<Item Name="Current VIs Reference__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Reference__ogtk.vi"/>
 				<Item Name="Delete Elements from 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (Boolean)__ogtk.vi"/>
 				<Item Name="Delete Elements from 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (CDB)__ogtk.vi"/>
 				<Item Name="Delete Elements from 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (CSG)__ogtk.vi"/>
@@ -599,6 +601,7 @@
 				<Item Name="lib_path.vi" Type="VI" URL="/&lt;vilib&gt;/addons/h5labview2/base/lib_path.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
@@ -608,24 +611,47 @@
 				<Item Name="rel_path.vi" Type="VI" URL="/&lt;vilib&gt;/addons/h5labview2/base/rel_path.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
+				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
+				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
+				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="check_base_folder.vi" Type="VI" URL="../LV Source/SubVIs/check_base_folder.vi"/>
+			<Item Name="config_file_load_create.vi" Type="VI" URL="../LV Source/SubVIs/config_file_load_create.vi"/>
+			<Item Name="config_file_path.vi" Type="VI" URL="../LV Source/SubVIs/config_file_path.vi"/>
+			<Item Name="define_squarewave.vi" Type="VI" URL="../LV Source/SubVIs/define_squarewave.vi"/>
+			<Item Name="event_animal_ID.vi" Type="VI" URL="../LV Source/SubVIs/event_animal_ID.vi"/>
+			<Item Name="event_error.vi" Type="VI" URL="../LV Source/SubVIs/event_error.vi"/>
+			<Item Name="event_free_reward.vi" Type="VI" URL="../LV Source/SubVIs/event_free_reward.vi"/>
+			<Item Name="event_key_down.vi" Type="VI" URL="../LV Source/SubVIs/event_key_down.vi"/>
+			<Item Name="event_quit.vi" Type="VI" URL="../LV Source/SubVIs/event_quit.vi"/>
+			<Item Name="event_setup_pause.vi" Type="VI" URL="../LV Source/SubVIs/event_setup_pause.vi"/>
+			<Item Name="event_setup_start.vi" Type="VI" URL="../LV Source/SubVIs/event_setup_start.vi"/>
+			<Item Name="event_setup_stop.vi" Type="VI" URL="../LV Source/SubVIs/event_setup_stop.vi"/>
+			<Item Name="event_setup_toggle.vi" Type="VI" URL="../LV Source/SubVIs/event_setup_toggle.vi"/>
+			<Item Name="event_water.vi" Type="VI" URL="../LV Source/SubVIs/event_water.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="riffle_index.vi" Type="VI" URL="../../../EXP3D ESYS/LV Source/SubVIs/riffle_index.vi"/>
+			<Item Name="prelim_per_setup.vi" Type="VI" URL="../LV Source/SubVIs/prelim_per_setup.vi"/>
+			<Item Name="prelim_toggle_general_ctrls.vi" Type="VI" URL="../LV Source/SubVIs/prelim_toggle_general_ctrls.vi"/>
+			<Item Name="quit_reset_VI.vi" Type="VI" URL="../LV Source/SubVIs/quit_reset_VI.vi"/>
+			<Item Name="riffle_index.vi" Type="VI" URL="../LV Source/SubVIs/riffle_index.vi"/>
 			<Item Name="setup_id_from_ctlref.vi" Type="VI" URL="../LV Source/SubVIs/setup_id_from_ctlref.vi"/>
 			<Item Name="stim_type.ctl" Type="VI" URL="../LV Source/Type Definitions/stim_type.ctl"/>
 			<Item Name="vars.ctl" Type="VI" URL="../LV Source/Type Definitions/vars.ctl"/>
+			<Item Name="welcome.vi" Type="VI" URL="../LV Source/SubVIs/welcome.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Training Top Level" Type="EXE">
