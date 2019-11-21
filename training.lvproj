@@ -598,6 +598,7 @@
 				<Item Name="H5S.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/h5labview2/space/H5S.lvlib"/>
 				<Item Name="H5T.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/h5labview2/type/H5T.lvlib"/>
 				<Item Name="hid_t.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/h5labview2/base/hid_t.ctl"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="lib_path.vi" Type="VI" URL="/&lt;vilib&gt;/addons/h5labview2/base/lib_path.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
@@ -626,6 +627,7 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="backlight_type.ctl" Type="VI" URL="../LV Source/Type Definitions/backlight_type.ctl"/>
 			<Item Name="check_base_folder.vi" Type="VI" URL="../LV Source/SubVIs/check_base_folder.vi"/>
 			<Item Name="config_file_load_create.vi" Type="VI" URL="../LV Source/SubVIs/config_file_load_create.vi"/>
 			<Item Name="config_file_path.vi" Type="VI" URL="../LV Source/SubVIs/config_file_path.vi"/>
@@ -634,6 +636,7 @@
 			<Item Name="event_error.vi" Type="VI" URL="../LV Source/SubVIs/event_error.vi"/>
 			<Item Name="event_free_reward.vi" Type="VI" URL="../LV Source/SubVIs/event_free_reward.vi"/>
 			<Item Name="event_key_down.vi" Type="VI" URL="../LV Source/SubVIs/event_key_down.vi"/>
+			<Item Name="event_pairing_mode.vi" Type="VI" URL="../LV Source/SubVIs/event_pairing_mode.vi"/>
 			<Item Name="event_quit.vi" Type="VI" URL="../LV Source/SubVIs/event_quit.vi"/>
 			<Item Name="event_setup_pause.vi" Type="VI" URL="../LV Source/SubVIs/event_setup_pause.vi"/>
 			<Item Name="event_setup_start.vi" Type="VI" URL="../LV Source/SubVIs/event_setup_start.vi"/>
@@ -650,6 +653,7 @@
 			<Item Name="riffle_index.vi" Type="VI" URL="../LV Source/SubVIs/riffle_index.vi"/>
 			<Item Name="setup_id_from_ctlref.vi" Type="VI" URL="../LV Source/SubVIs/setup_id_from_ctlref.vi"/>
 			<Item Name="stim_type.ctl" Type="VI" URL="../LV Source/Type Definitions/stim_type.ctl"/>
+			<Item Name="toggle_pairing_button.vi" Type="VI" URL="../LV Source/SubVIs/toggle_pairing_button.vi"/>
 			<Item Name="vars.ctl" Type="VI" URL="../LV Source/Type Definitions/vars.ctl"/>
 			<Item Name="welcome.vi" Type="VI" URL="../LV Source/SubVIs/welcome.vi"/>
 		</Item>
